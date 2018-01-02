@@ -1,0 +1,39 @@
+@import "../../../_variables.scss";
+@import "../../../_settings.scss";
+
+table.publications {
+  margin: 0 auto;
+  clear: both;
+  color: #888;
+}
+
+table.publications {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+
+  @media #{$small-up} {
+    width: 90%;
+  }
+
+  @media #{$medium-up} {
+    width: 956px;
+  }
+
+  @media #{$large-up} {
+    width: 1140px;
+  }
+}
+
+table.publications td {
+  cursor: pointer;
+  padding: 10px 10px;
+}
+
+table.publications tr:hover {
+  color: #607D8B;
+}
+
+table.publications tr.odd {
+  background-color: #eee;
+}

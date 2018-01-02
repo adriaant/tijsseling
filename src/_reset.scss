@@ -1,0 +1,50 @@
+/*------------------------------------*\
+  #RESET
+\*------------------------------------*/
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+div, label {
+  box-sizing: border-box;
+}
+
+input {
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+ul, li, textarea, select {
+  box-sizing: border-box;
+}
+
+button, input[type=button], input[type=submit] {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}

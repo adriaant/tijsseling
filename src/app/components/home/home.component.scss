@@ -1,0 +1,137 @@
+@import "../../../_variables.scss";
+@import "../../../_settings.scss";
+
+div.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  div.intro {
+    padding: $space-inset-m;
+    flex: 0 1 auto;
+    width: 80%;
+
+    @media #{$medium-up} {
+      width: 70%;
+    }
+
+    div.recommendations {
+
+      @media #{$small-up} {
+        margin-top: 64px;
+      }
+
+      p {
+        padding: 0;
+      }
+
+      ul {
+        color: $color-brand-coral;
+        font-style: italic;
+        font-family: 'Amiri', serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        @media #{$small-up} {
+          width: 66%;
+        }
+
+        li {
+          margin-left: 8px;
+          padding: 0 0 8px 0;
+        }
+
+        li:before {
+          content: '\201C';
+          font-size: $font-size-xl;
+          display: inline-block;
+          position: relative;
+          left: -8px;
+          top: 8px;
+        }
+      }
+    }
+  }
+
+  div.contact {
+
+    padding: $space-inset-m;
+    @media #{$small-up} {
+      margin-top: 64px;
+    }
+
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 1 auto;
+
+    a.contact-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      vertical-align: middle;
+      margin: 8px;
+
+      div.contact-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .contact-svg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          fill-rule: evenodd;
+        }
+
+        .contact-svg-background {
+          transition: fill 170ms ease-in-out;
+          fill: transparent;
+        }
+
+        .contact-svg-icon {
+          transition: fill 170ms ease-in-out;
+          fill: transparent;
+        }
+
+        .contact-svg-mask {
+          transition: fill 170ms ease-in-out;
+          fill: rgb(83, 93, 102);
+        }
+      }
+    }
+  }
+
+  div.photo {
+    align-self: flex-end;
+    position: fixed;
+    bottom: -4px;
+    flex: 0 1 auto;
+    width: 100px;
+    z-index: -100;
+
+    @media #{$small-up} {
+      width: 200px;
+    }
+
+    @media #{$medium-up} {
+      width: 400px;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

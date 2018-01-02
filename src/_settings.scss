@@ -1,0 +1,11 @@
+$small-breakpoint:        40em;
+$medium-breakpoint:       64em;
+$large-breakpoint:        80em;
+$extra-large-breakpoint:  90em;
+
+$medium-only: "screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint})";
+
+$small-up: "screen and (min-width: #{$small-breakpoint})";
+$medium-up: "screen and (min-width: #{$medium-breakpoint})";
+$large-up: "screen and (min-width:#{$large-breakpoint})";
+$extra-large-up: "screen and (min-width:#{$extra-large-breakpoint})";

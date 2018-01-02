@@ -1,0 +1,155 @@
+
+/*------------------------------------*\
+  #FONT-SIZES
+\*------------------------------------*/
+$font-size-xl: 1.953125rem;  /*31px*/
+$font-size-l: 1.5625rem;     /*25px*/
+$font-size-m: 1.25rem;       /*20px*/
+$font-size-base: 1rem;       /*16px*/
+$font-size-s: 0.8rem;        /*13px*/
+$font-size-xs: 0.65rem;      /*10px*/
+
+
+/*------------------------------------*\
+  #FONT-WEIGHTS
+\*------------------------------------*/
+$font-weight-black: 800;
+$font-weight-bold: 600;
+$font-weight-semibold: 500;
+$font-weight-normal: 400;
+$font-weight-thin: 200;
+
+
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+$color-brand-white: white;
+$color-brand-gray: #7B7B7B;
+
+$color-brand-cool: #535D66;
+$color-brand-coral: #7B8C96;
+$color-brand-silver: #BFC0C0;
+$color-brand-orange: #EF8354;
+
+$color-signal-error: #CF5353;
+$color-signal-success: #00CF52;
+$color-signal-warning: #FFC802;
+$color-signal-info: #0173CF;
+
+$color-shadow-blue: #719ECE;
+$color-hover-blue: $color-brand-silver;
+$color-gray: #ccc;
+$color-gray-light: #F5F5F5;
+
+
+/*------------------------------------*\
+  #SPACING
+\*------------------------------------*/
+
+/**
+* The space system is build up of the following rules and models. It is based
+* on 16 px/pt as a base unit. From there you can go down to:
+* 2 px/pt
+* 4 px/pt
+* 8 px/pt
+*
+* And you can go up to:
+* 16 px/pt
+* 32 px/pt
+* 64 px/pt
+*
+* 1)  Space inset or Square inset is used to apply a padding to an element
+*     equally on all sites.
+*
+* 2)  Squish inset which adds 2x the space of the top and bottom to the sides.
+*
+* 3)  Strech inset which adds 2x the space on the side to the top and bottom.
+*
+* 4)  Space stack for adding space vertically between elements.
+*
+* 5)  Space just the spaces available for use.
+*
+*/
+
+/*------------------------------------*\
+  #SPACE INSET [1]
+\*------------------------------------*/
+$space-inset-default: 16px 16px 16px 16px;
+$space-inset-xs: 4px 4px 4px 4px;
+$space-inset-s: 8px 8px 8px 8px;
+$space-inset-m: 16px 16px 16px 16px;
+$space-inset-l: 32px 32px 32px 32px;
+$space-inset-xl: 64px 64px 64px 64px;
+
+
+/*------------------------------------*\
+  #SPACE INSET SQUISH[2]
+\*------------------------------------*/
+$space-inset-squish-default: 8px 16px;
+$space-inset-squish-xs: 2px 4px;
+$space-inset-squish-s: 4px 8px;
+$space-inset-squish-m: 8px 16px;
+$space-inset-squish-l: 16px 32px;
+$space-inset-squish-xl: 32px 64px;
+
+
+/*------------------------------------*\
+  #SPACE INSET STRETCH [3]
+\*------------------------------------*/
+$space-inset-stretch-default: 16px 8px;
+$space-inset-stretch-xs: 4px 2px;
+$space-inset-stretch-s: 8px 4px;
+$space-inset-stretch-m: 16px 8px;
+$space-inset-stretch-l: 32px 16px;
+$space-inset-stretch-xl: 64px 32px;
+
+
+/*------------------------------------*\
+  #SPACE STACK [4]
+\*------------------------------------*/
+$space-stack-default: 0 0 16px 0;
+$space-stack-xs: 0 0 4px 0;
+$space-stack-s: 0 0 8px 0;
+$space-stack-m: 0 0 16px 0;
+$space-stack-l: 0 0 32px 0;
+$space-stack-xl: 0 0 64px 0;
+
+
+/*------------------------------------*\
+  #SPACE [5]
+\*------------------------------------*/
+$space-default: 16px;
+$space-xxs: 2px;
+$space-xs: 4px;
+$space-s: 8px;
+$space-m: 16px;
+$space-l: 32px;
+$space-xl: 64px;
+$space-xxl: 128px;
+
+
+/*------------------------------------*\
+  #BORDER-RADIUS
+\*------------------------------------*/
+$border-radius-medium: 4px;
+$border-radius-large: 8px;
+
+
+/*------------------------------------*\
+  #BOX-SHADOW
+\*------------------------------------*/
+$box-shadow-default: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+
+/*------------------------------------*\
+  #LAYERS
+\*------------------------------------*/
+$z-index-overlay: 2;
+$z-index-header: 3;
+$z-index-modal: 4;
+
+
+/*------------------------------------*\
+  #ANIMATIONS
+\*------------------------------------*/
+$animation-default: all 0.15s ease-in-out

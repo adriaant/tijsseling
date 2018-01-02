@@ -1,0 +1,16 @@
+<app-header>
+  <h1>Publications</h1>
+  <table class="publications">
+    <tr *ngFor="let publication of publications; let o = odd; let e = even;" [ngClass]="{
+    'odd': o,
+    'even': e
+  }">
+      <td>{{publication.year}}</td>
+      <td>
+        {{publication.authors}}.
+        "<a href="{{publication.url}}" target="_blank">{{publication.title}}</a>".
+        <i>{{publication.issue}}</i>
+      </td>
+    </tr>
+  </table>
+</app-header>

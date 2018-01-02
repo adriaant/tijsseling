@@ -1,0 +1,16 @@
+<div class="header-container">
+  <div class="header-container__header">
+    <div class="header">
+      <div class="header__title clickable" (click)="toHome()">Adriaan Tijsseling</div>
+      <div class="header__navigation clickable">
+        <ul>
+          <li (click)="toPublications()">Publications</li>
+          <li (click)="toHome()">About</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header-container__content">
+    <ng-content></ng-content>
+  </div>
+</div>

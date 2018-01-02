@@ -1,0 +1,107 @@
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background-color: $color-gray-light;
+  color: $color-brand-cool;
+}
+
+h1 {
+  padding: $space-inset-m;
+  font-size: $font-size-xl;
+  text-align: center;
+}
+
+h2 {
+  padding: $space-stack-m;
+  font-size: 20px;
+}
+
+h3 {
+  padding: $space-stack-m;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h4 {
+  padding: $space-stack-s;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+a, a:hover, a:visited {
+  font-size: inherit;
+  color: $color-brand-coral;
+  text-decoration: underline;
+}
+
+/* IE FIX for underline under icons within links */
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $color-brand-orange;
+}
+
+a:before, a:after {
+  text-decoration: underline;
+}
+
+a:before, a:after,
+a:hover:before, a:hover:after {
+  text-decoration: none;
+}
+
+p {
+  padding: $space-stack-s;
+  color: $color-brand-cool;
+}
+
+hr {
+  padding: $space-stack-s;
+  border: none;
+  border-top: 1px solid $color-gray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: $font-weight-bold;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.non-selectable {
+  user-select: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.warning-message {
+  color: $color-signal-error !important;
+}
