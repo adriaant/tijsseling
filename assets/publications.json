@@ -1,0 +1,79 @@
+[
+    {
+        "authors": "Adriaan Tijsseling, Stevan Harnad",
+        "title": "Warping Similarity Space in Category Learning by Backprop Nets",
+        "issue": "Proceedings of SimCat 1997: Interdisciplinary Workshop on Similarity and Categorization.",
+        "year": 1997,
+        "url": "https://www.researchgate.net/publication/313312593_Warping_Similarity_Space_in_Category_Learning_by_Backprop_Nets"
+    },
+    {
+        "authors": "Adriaan Tijsseling, Rachel Pevtzow, Mike Casey, Stevan Harnad",
+        "title": "Categories as Attractors",
+        "issue": "Proceedings of the 2nd International Conference on Cognitive and Neural Systems. Boston University. Boston MA.",
+        "year": 1998,
+        "url": "https://www.researchgate.net/publication/313312734_Categories_as_Attractors"
+    },
+    {
+        "authors": "Adriaan Tijsseling",
+        "title": "Connectionist Models of Categorization: A Dynamical Approach to Cognition",
+        "issue": "Ph.D. Thesis",
+        "year": 1998,
+        "url": "https://www.researchgate.net/publication/34746161_Connectionist_models_of_categorization_a_dynamical_approach_to_cognition"
+    },
+    {
+        "authors": "Adriaan Tijsseling",
+        "title": "Do Features Arise out of Nothing",
+        "issue": "Behavioral and Brain Sciences 21(01):38 - 39",
+        "year": 1998,
+        "url": "https://www.researchgate.net/publication/231916536_Do_features_arise_out_of_nothing"
+    },
+    {
+        "authors": "Robert H. Phaf, Paul den Dulk, Adriaan Tijsseling, Ed Lebert",
+        "title": "Novelty-dependent Learning and Topological Mapping",
+        "issue": "Connection Science 13(4):293-321",
+        "year": 2001,
+        "url": "https://www.researchgate.net/publication/220233588_Novelty-dependent_learning_and_topological_mapping"
+    },
+    {
+        "authors": "Adriaan Tijsseling, Mark A. Gluck",
+        "title": "A Connectionist Approach to Processing Dimensional Interaction",
+        "issue": "Connection Science 14(1):1-48",
+        "year": 2002,
+        "url": "https://www.researchgate.net/publication/220233503_A_Connectionist_Approach_to_Processing_Dimensional_Interaction"
+    },
+    {
+        "authors": "Luc Berthouze, Adriaan Tijsseling",
+        "title": "Acquiring ontological categories through interaction",
+        "issue": "The Journal of Three Dimensional Images, Vol. 16, 4, pp. 141-147",
+        "year": 2002,
+        "url": "https://www.researchgate.net/publication/2878845_Acquiring_Ontological_Categories_Through_Interaction"
+    },
+    {
+        "authors": "Adriaan Tijsseling, Luc Berthouze",
+        "title": "A Neural Network Architecture for the Categorization of Temporal Information",
+        "issue": "Apparently not published",
+        "year": 2003,
+        "url": "https://www.researchgate.net/publication/228843721_A_neural_network_architecture_for_the_categorization_of_temporal_information"
+    },
+    {
+        "authors": "Adriaan Tijsseling",
+        "title": "Sequential Information Processing Using Time-Delay Connections in Ontogenic CALM Networks",
+        "issue": "IEEE Transactions on Neural Networks 16(1):145-59",
+        "year": 2005,
+        "url": "https://www.researchgate.net/publication/8002081_Sequential_Information_Processing_Using_Time-Delay_Connections_in_Ontogenic_CALM_Networks"
+    },
+    {
+        "authors": "Adriaan Tijsseling",
+        "title": "A Neural Model for Context-dependent Sequence Learning",
+        "issue": "Neural Processing Letters 23(1):27-45",
+        "year": 2006,
+        "url": "https://www.researchgate.net/publication/225304141_A_Neural_Model_for_Context-dependent_Sequence_Learning"
+    },
+    {
+        "authors": "Adriaan Tijsseling",
+        "title": "State of CALM",
+        "issue": "Draft",
+        "year": 2015,
+        "url": "https://www.researchgate.net/publication/288303968_State_of_CALM_draft"
+    }
+]
