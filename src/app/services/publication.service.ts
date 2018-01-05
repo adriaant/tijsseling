@@ -12,7 +12,7 @@ export class PublicationService {
   }
 
   getPublications(): Observable<Publication[]> {
-    return this.http.get<Publication[]>('/assets/publications.json')
+    return this.http.get<Publication[]>('assets/publications.json')
       .pipe(
         catchError(this.handleError('getPublications', []))
       );
